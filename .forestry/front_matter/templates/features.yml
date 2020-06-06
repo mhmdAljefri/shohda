@@ -1,0 +1,62 @@
+---
+label: Features
+hide_body: true
+fields:
+  - name: nameobj
+    type: field_group
+    config: {}
+    fields:
+      - name: ar
+        type: text
+        config:
+          required: false
+        label: ar
+      - name: en
+        type: text
+        config:
+          required: false
+        label: en
+    label: nameobj
+  - name: roleobj
+    type: field_group
+    config: {}
+    fields:
+      - name: ar
+        type: text
+        config:
+          required: false
+        label: ar
+      - name: en
+        type: text
+        config:
+          required: false
+        label: en
+    label: roleobj
+  - name: descriptionobj
+    type: field_group
+    config: {}
+    fields:
+      - name: ar
+        type: textarea
+        default: ""
+        config:
+          required: false
+          wysiwyg: false
+          schema:
+            format: markdown
+        label: ar
+      - name: en
+        type: textarea
+        default: ""
+        config:
+          required: false
+          wysiwyg: false
+          schema:
+            format: markdown
+        label: en
+    label: descriptionobj
+  - name: avatar
+    type: file
+    config:
+      maxSize: 250
+    label: avatar

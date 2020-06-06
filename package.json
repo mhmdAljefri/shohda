@@ -1,0 +1,70 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "@mdi/js": "^4.9.95",
+    "@mdi/react": "^1.3.0",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.19.18",
+    "gatsby-background-image": "^0.10.2",
+    "gatsby-image": "^2.2.41",
+    "gatsby-plugin-manifest": "^2.2.41",
+    "gatsby-plugin-offline": "^3.0.35",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-plugin-transition-link": "^1.17.7",
+    "gatsby-remark-images": "^3.1.44",
+    "gatsby-remark-relative-images": "^0.3.0",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-transformer-remark": "^2.6.53",
+    "gatsby-transformer-sharp": "^2.3.14",
+    "intersection-observer": "^0.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-genie": "^0.1.6",
+    "react-helmet": "^5.2.1",
+    "react-icons-kit": "^1.3.1",
+    "react-id-swiper": "^3.0.0",
+    "react-slick": "^0.25.2",
+    "react-spinners-kit": "^1.9.1",
+    "react-spring": "^8.0.27",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^5.4.2",
+    "theme-ui": "^0.3.1"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^0.0.7",
+    "eslint": "^6.8.0",
+    "eslint-config-react-app": "^5.2.0",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "forestry:preview": "gatsby develop -p 8080 -H 0.0.0.0",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
