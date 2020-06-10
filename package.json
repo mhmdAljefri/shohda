@@ -27,6 +27,7 @@
     "gatsby-transformer-sharp": "^2.3.14",
     "intersection-observer": "^0.7.0",
     "prop-types": "^15.7.2",
+    "rc-drawer": "^4.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-genie": "^0.1.6",

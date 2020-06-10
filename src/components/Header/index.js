@@ -1,18 +1,11 @@
 /** @jsx jsx */
-import React from "react"
 import PropTypes from "prop-types"
-import { Link as ThemeLink, jsx, Flex, Text } from "theme-ui"
-import { Link } from "gatsby"
+import { jsx, Flex, Text } from "theme-ui"
 import Wrapper from "../wrapper"
 import useScrolled from "../../hooks/useScrolled"
-import DarkModeToggle from "../ColorMode"
-
-const navs = [
-  { url: "/", title: "الرئيسية" },
-  { url: "/martyrs/", title: "صور الشهداء" },
-  { url: "/aboutus/", title: "عن الموقع" },
-  { url: "/contactus/", title: "التواصل" },
-]
+import Nav from "./Nav"
+import Drawer from "../Drawer"
+import { Link } from "gatsby"
 
 function Header(props) {
   const { scrolled } = useScrolled()
@@ -31,6 +24,8 @@ function Header(props) {
       <Wrapper>
         <Flex sx={{ alignItems: "center", justifyContent: "space-between" }}>
           <Text
+            as={Link}
+            to="/"
             sx={{
               color: "primary",
               background: "-webkit-linear-gradient(#000, #bb1608, #bb1608)",
@@ -40,39 +35,16 @@ function Header(props) {
           >
             شُهداء الواجِب
           </Text>
-          <nav>
-            <ul
-              sx={{
-                listStyle: "none",
-                padding: 0,
-                display: "flex",
-                alignItems: "center",
-              }}
-            >
-              {navs.map(({ title, url }) => (
-                <li
-                  sx={{
-                    marginInlineEnd: 15,
-                    wordBreak: "keep-all",
-                    whiteSpace: "nowrap",
-                  }}
-                  key={url}
-                >
-                  <ThemeLink
-                    as={Link}
-                    to={url}
-                    partiallyActive
-                    activeClassName="active"
-                  >
-                    {title}
-                  </ThemeLink>
-                </li>
-              ))}
-              <li>
-                <DarkModeToggle />
-              </li>
-            </ul>
-          </nav>
+          <Flex>
+            <Nav sx={{ display: ["none", null, "block"] }} />
+            <Drawer>
+              <Nav
+                listStyle={{
+                  flexDirection: "column",
+                }}
+              />
+            </Drawer>
+          </Flex>
         </Flex>
       </Wrapper>
     </header>
