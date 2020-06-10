@@ -28,13 +28,25 @@ export default function Footer() {
           <Img fluid={file.childImageSharp.fluid} />
         </Box>
         <Flex sx={{ justifyContent: "center", pb: 5, a: { p: 3 } }}>
-          <Link href="#" target="_blank" rel="noopener">
+          <Link
+            href="https://www.facebook.com/STCSouthArabia"
+            target="_blank"
+            rel="noopener"
+          >
             <Icon size={20} icon={facebook} />
           </Link>
-          <Link href="#" target="_blank" rel="noopener">
+          <Link
+            href="https://twitter.com/STCSouthArabia"
+            target="_blank"
+            rel="noopener"
+          >
             <Icon size={20} icon={twitter} />
           </Link>
-          <Link href="#" target="_blank" rel="noopener">
+          <Link
+            href="https://www.youtube.com/channel/UCuucuTX4WzZtkUFFu8BkD8A"
+            target="_blank"
+            rel="noopener"
+          >
             <Icon size={20} icon={youtube} />
           </Link>
         </Flex>

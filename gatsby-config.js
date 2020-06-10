@@ -2,7 +2,7 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    title: `شُهداء الواجِب`,
+    title: `شُهداء الواجِب الجنوب العربي`,
     description: `الموقع التكريمي لشهٌداء الثورة الجنوبية والدفاع عن الأرض`,
     author: `@mhmdAljefri`,
   },
