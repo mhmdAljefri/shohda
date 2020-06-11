@@ -9,7 +9,7 @@ function MainSection() {
     {
       munneer: file(relativePath: { eq: "شهداء.png" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 500) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }

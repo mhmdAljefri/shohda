@@ -18,7 +18,7 @@ export default function useMartyrsQuery() {
               govern
               avatar {
                 childImageSharp {
-                  fluid(maxWidth: 1000) {
+                  fluid(maxWidth: 200) {
                     ...GatsbyImageSharpFluid_withWebp
                   }
                 }
