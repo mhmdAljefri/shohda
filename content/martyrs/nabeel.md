@@ -1,8 +1,8 @@
 ---
 name: نبيل حسن القعيطي
 role: مصور حربي
-borndate: 1974-01-07T12:47:00.000Z
-martyrdate: 2019-01-07T12:47:00.000Z
+borndate: 1990-01-07T12:47:00.000Z
+martyrdate: 2020-05-02T12:47:00.000Z
 govern: عدن
 martyrplace: عدن - دارسعد
 martyrmap:
