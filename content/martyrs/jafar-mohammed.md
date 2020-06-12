@@ -1,8 +1,8 @@
 ---
 name: اللواء جعفر محمد سعد
 role: محافظ محافظة عدن
-borndate: 1974-01-07T12:47:00.000Z
-martyrdate: 2019-01-07T12:47:00.000Z
+borndate: 1986-01-07T12:47:00.000Z
+martyrdate: 2015-12-06T12:47:00.000Z
 govern: عدن
 martyrplace: المعلاء
 martyrmap:
